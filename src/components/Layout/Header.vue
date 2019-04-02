@@ -1,18 +1,21 @@
 <template>
-    <p>login</p>
+
 </template>
 
 <script>
     export default {
-        name: "index",
+        name: "header",
       data(){
           return {
-
+            header_show:true,
+            footer_show:true,
           }
+      },
+      methods:{
       },
       created() {
 
-      }
+      },
     }
 </script>
 
